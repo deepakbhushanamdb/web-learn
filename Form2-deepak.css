@@ -1,0 +1,10 @@
+body{
+	background-color: #eb4034;
+	background-image: url("./google_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+}
+p.head{
+	text-align: center;
+	font-size: 12pt;
+}
