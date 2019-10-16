@@ -1,0 +1,39 @@
+#form {
+background-color: darkblue;
+text-color: white;
+}
+
+#firstname {
+background-color: yellow;
+}
+
+#lastname {
+background-color: yellow;
+}
+
+#address {
+background-color: yellow;
+}
+
+#pincode {
+background-color: yellow;
+}
+
+#p1 {
+background-color: darkgreen;
+text-color: white;
+}
+
+#p2 {
+background-color: darkgreen;
+text-color: white;
+}
+
+#p3 {
+background-color: darkgreen;
+text-color: white;
+}
+
+#gift {
+background-color: yellow;
+}
