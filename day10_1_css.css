@@ -1,0 +1,13 @@
+table {
+  margin: 1px;
+  table-layout: fixed;
+  width: 50%;
+}
+
+tr {
+  height: 25%;
+}
+
+td {
+  width: 10%;
+}

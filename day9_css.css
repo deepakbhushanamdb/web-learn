@@ -1,0 +1,33 @@
+input{
+  border-radius: 50px;
+  /* border: 1px solid; */
+  border-color: #827f64;
+  border-width: thin;
+  border-style: ridge;
+  border-top-color: #f7eb7c;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h1,p{
+  border-radius: 50px;
+  border-color: pink;
+}
+
+table{
+  border-collapse: separate;
+  border-color: teal;
+  border-spacing: 50px 10px;
+  empty-cells: show;
+}
+
+td{
+  border-style: groove;
+  border-color: pink;
+  padding: 10px;
+  margin
+}
+
+caption{
+  caption-side: bottom;
+}

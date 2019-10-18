@@ -1,0 +1,111 @@
+#hidden {
+  visibility: visible;
+}
+
+/*
+body {
+  visibility: hidden;
+} */
+i {
+  background-color: red;
+  position: fixed;
+  left: 200px;
+  top: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+#l1 {
+  background: orange;
+  z-index: 1;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 80px;
+}
+
+#l2 {
+  visibility: ;
+  background: red;
+  z-index: 3;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  top: -60px;
+  left: 40px;
+}
+
+#l2:focus {
+  background: yellow;
+}
+
+#l3 {
+  background: green;
+  z-index: 3;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  top: -200px;
+  left: 100px;
+}
+
+a:link {
+  color: #f53325;
+}
+
+a:visited {
+  color: #911e16;
+}
+
+a:hover {
+  color: #ebafab;
+}
+
+a:active {
+  color: #876563;
+}
+
+.text:hover {
+  background-color: pink;
+}
+
+div>p:first-child {
+  text-indent: 20px;
+}
+
+.first:first-letter {
+  text-transform: uppercase;
+}
+
+p:after {
+  content: " - THIS IS IMPORTANT";
+}
+
+div::first-line {
+  text-transform: uppercase;
+}
+
+.textmod {
+  filter: blur(5);
+}
+
+/*
+@media screen {
+  body {
+    font-size: 50px;
+  }
+} */
+@media projection {
+  body {
+    font-size: 5px;
+  }
+}
+
+@media handheld {
+  body {
+    font-size: 5px;
+  }
+}
