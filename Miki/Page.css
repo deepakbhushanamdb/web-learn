@@ -9,24 +9,23 @@ body {
 }
 
 .header h1 {
-	font-size: 40px;
-	font-family: verdana;
-	font-weight: bold;
-	color: white;
+  font-size: 40px;
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
 }
 
-<!-- Why this doesnt work?
+/* <!-- Why this doesnt work?
 h1.header {
 	font-size: 25px;
 	font-family: verdana;
 	font-weight: bold;
 	color: white;
-}-->
-
+}--> */
 .header h4 {
-	font-size: 20px;
-	color: white;
-	font-weight: bold;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 .topnav {
@@ -35,9 +34,9 @@ h1.header {
 }
 
 .topnav p {
-  fot-size: 20px;
+  font-size: 20px;
   font-family: verdana;
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .topnav a {

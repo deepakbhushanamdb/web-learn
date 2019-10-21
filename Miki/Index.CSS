@@ -8,25 +8,23 @@ body {
   text-align: center;
 }
 
-.header h1 {
-	font-size: 40px;
-	font-family: verdana;
-	font-weight: bold;
-	color: white;
+/* .header h1 {
+  font-size: 60px;
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
+} */
+h1 {
+  font-size: 60px;
+  font-family: verdana;
+  font-weight: bold;
+  color: white;
 }
 
-<!-- Why this doesnt work?
-h1.header {
-	font-size: 25px;
-	font-family: verdana;
-	font-weight: bold;
-	color: white;
-}-->
-
-.header h4 {
-	font-size: 20px;
-	color: white;
-	font-weight: bold;
+h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
 }
 
 .topnav {
@@ -37,7 +35,7 @@ h1.header {
 .topnav p {
   fot-size: 20px;
   font-family: verdana;
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .topnav a {
@@ -65,8 +63,8 @@ h1.header {
   display: table;
   clear: both;
 }
-<!--
-.column.side {
+
+< !-- .column.side {
   width: 25%;
 }
 
@@ -80,9 +78,7 @@ h1.header {
   clear: both;
 }
 
--->
-
-@media screen and (max-width:500px) {
+-->@media screen and (max-width:500px) {
   .column {
     width: 100%;
   }
