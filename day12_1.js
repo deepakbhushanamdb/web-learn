@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+function prime(limit){
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script type="text/javascript" src="day12.js">
-  </script>
-  <title>Document</title>
-</head>
+document.write("1 2 ");
+var i=0 ,j=0;
+for(i=3;i<limit; i++){
+  for(j = 2; j<i; j++){
+    if(i%j == 0){
+      break;
+    }}
+    if(i == j){
+      document.write(i + " ");
+    }
+}
+}
 
-<body onload="loaded()">
-  <input type="button" onclick=clickon() value="alert">
-  <div id="overr" onmouseover=over()>
-
-    <p>This is a para</p>
-    <p>This is a para</p>
-    <p>This is a para</p>
-</body>
-
-</html>
+//
+// prime(50)
