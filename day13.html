@@ -1,0 +1,49 @@
+<!--COOKIES-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="day13.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<p id="headd">Cookie Contents:</p>
+<ul>  name:data
+<li>Name</li>
+<li>Content</li>
+<li>Domain</li>
+<li>Path</li>
+<li>Created</li>
+<li>Expires</li>
+<li>Send for</li>
+</ul>
+<p>Function to write cookie:</p>
+<form action="" name="form">
+    <label for="form_key">Cookie name:</label>
+    <input type="text" name="key" id="form_key"/>
+    <label for="form_value">Cookie Value:</label>
+    <input type="text" name="value_pair" id="form_value"/>
+    <input type="button" value="Write to Cookie" onclick="WriteCookie();">
+</form>
+
+
+<input type="button" value="validate" onclick="ShowCookie();">
+<br><br>
+<button onclick="addcook()">Cookie</button>
+<button onclick="listcook()">Show Cookie</button>
+
+<br><br>
+
+<p id="show_cookie"></p>
+<p id="show_all_cookie"></p>
+
+
+<form action="" name="redirect">
+    <label for="url">Enter URL:</label>
+    <input type="text" id ="url" value = "redirect"/>
+    <input type="button" value="redirectt" onclick="Redirect();">
+</form>
+<a href="#headd">Move up</a>
+</body>
+</html>
