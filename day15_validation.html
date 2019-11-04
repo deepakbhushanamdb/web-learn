@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="day15_validation.js"></script>
+    <style>body{
+        border: red solid 1px;
+        margin: 100px;
+    }</style>
+</head>
+<body>
+<form action="" name="valid" onsubmit="return validate();">
+    <label>Name:
+        <input type="text" name="Name">
+    </label><br><br>
+    <label>Age:
+        <input type="text" name="age">
+    </label><br><br>
+    <label>Address:
+        <input type="text" name="address">
+    </label><br><br>
+    <label>Pincode:
+        <input type="text" name="pin">
+    </label><br><br>
+    <label>Email:
+        <input type="text" name="email">
+    </label><br><br>
+    <label>Select your country
+        <select name="country">
+            <option value="-1">Select your country</option>
+            <option value="1">India</option>
+            <option value="2">Australia</option>
+            <option value="3">USA</option>
+            <option value="4">Canada</option>
+        </select>
+    </label><br>
+    <input type="submit" value="Submit">
+</form>
+
+<br><br><br>
+<button onclick="func();">Error</button>
+</body>
+</html>
