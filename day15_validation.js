@@ -47,9 +47,8 @@ function func() {
 
     try {
         let a = 0;
-        if (a == 0) {
-            throw ("A is zero exception");
-        } else
+        if (a === 0) throw ("A is zero exception");
+        else
             alert("This is a" + a);
     } catch (e) {
         alert("Error is: " + e);
